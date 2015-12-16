@@ -1,0 +1,89 @@
+###########
+     v0.0.19:
+###########
+
+          unplanned update: fix clear thumbnails (schoolboy path error - doh!)
+
+###########
+     v0.0.18:
+###########
+
+          tweaked build extraction routines, added a few more clauses to improve efficiency\reduce the chance of errors
+
+
+          removed fresh start option during build install. The idea was to prevent the need for a restart after fresh start but it's causing too many issues so have to seperate the processes (will be a prompt to advise fresh start on going into browse builds)
+
+
+          fixed slight issue when responding no to fresh start prompt (would previously close kodi although no need)
+	
+
+          added a limit to the number of retries whilst measuring upload speed - a couple of people reported being stuck in a loop
+
+
+
+###########
+     v0.0.17:
+###########
+
+          NEW FEATURE:  internet speed test availble via 'more' menu
+
+          NEW FEATURE: log upload available via 'more' menu
+
+
+          few tweaks to build instllation routine:
+		
+          - avoids unzipping log files which build makers have forgot to remove 		
+	
+          - avoids extracting ares wizard from build (no need) 
+		
+          - should resume when errors occur (errors should be logged)
+
+
+          muhassive tweak to build installs, android users should no longer need to force close/power reset/kill kodi
+
+          fixed problem for users in Turkey (etc) where pastebin is blocked causing wizard not to function at all
+
+          added a couple of stat's to maintenance section.. total files deleted and total space regained
+
+          fixed bug in addon download routine meaning required modules weren't being installed (oops, sorry)
+
+
+
+###########
+     v0.0.16:
+###########
+
+          disbaled close button after build install on android.. (needs to be killed not closed)
+
+          filenames are displayed during extraction process.. gives a better indication things are working..
+
+          adjusted build install routine.. builds are downloaded and checked to make sure downloaded okay before fresh start is 	offered\performed
+
+
+
+###########
+     v0.0.15:
+###########
+
+          disabled registrations - not required and slight issues
+
+          added fresh start option to build installs
+
+          replaced donate button with close button, not really ready to take donations (technically or morally) - and there's a greater need 	for a close button for users with touchscreens.
+
+
+###########
+     v0.0.14:
+###########
+
+          fixed s.a.l.t.s label
+          
+          fix a bug in the error reporting
+
+          added 'backup' download option should prefered download method fail.
+
+          fix problem where maintenance reminders can't be turned off.
+
+
+
+

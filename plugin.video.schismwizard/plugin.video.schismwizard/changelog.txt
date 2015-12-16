@@ -1,0 +1,84 @@
+------------------------
+[COLOR green]SchisM TV Build v1.23 (optional)[/COLOR]
+------------------------
+[COLOR red]IF YOU WANT TO KEEP USING GENESIS
+AS MAIN ADDON --- DO NOT UPDATE[/COLOR]
+------------------------
+
+- Cleanup Menus and Broken Links
+
+------------------------
+[COLOR white]Wizard v1.26.3[/COLOR]
+------------------------
+
+Fixes to Backup/Restore on Android Devices
+
+------------------------
+[COLOR green]SchisM TV Build v1.22 (optional)[/COLOR]
+------------------------
+[COLOR red]IF YOU WANT TO KEEP USING GENESIS
+AS MAIN ADDON --- DO NOT UPDATE[/COLOR]
+------------------------
+
+- Removed Genesis as Main Movies-TVShows Sources and Widget
+- Added Alluc and The Royal We
+- Kids Section update (removed Genesis)
+- Tv Shows, Movies, Collections Updates (removed Genesis)
+- Added Hulubox
+- Added Toonmania
+- Added Channel Pear
+- Added Xmovies8
+- Added PVR Section to Live TV
+- Multiple Backgrounds for each tab
+
+------------------------
+[COLOR green]HOME PAGE PANEL FIX[/COLOR]
+------------------------
+[COLOR red]THIS SHOULD SOLVE THE PROBLEM WHEN LOADING MOVIES
+FROM THE HOME PANEL[/COLOR]
+------------------------
+
+Set Salts to show in Directory instead of Popup
+It should solve the problems people are having when launching
+Movies from the Home Page Panel
+
+
+------------------------
+[COLOR green]SchisM TV v1.20 (30-Nov-15)[/COLOR]
+------------------------
+[COLOR green]RUN THE CLEANER TO CLEAN OLD ADDONS[/COLOR]
+------------------------
+[COLOR red]IF YOU ARE ALREADY AT THIS VERSION DO NOT UPDATE[/COLOR]
+------------------------
+
+- Removed Jeckyll & Hyde addon
+- TV Shows Menu, Boxsets, and Kids Section updates
+
+------------------------
+[COLOR green]SchisM TV v1.19.6.4 (30-Nov-15)[/COLOR]
+------------------------
+[COLOR red]IF YOU ARE ALREADY AT THIS VERSION DO NOT UPDATE[/COLOR]
+------------------------
+
+- Update Sports Section
+- Added Legends Repo and Moneysports Addon
+
+------------------------
+[COLOR green]SchisM TV v1.19.6.3 (29-Nov-15)[/COLOR]
+------------------------
+[COLOR red]IF YOU ARE ALREADY AT THIS VERSION DO NOT UPDATE[/COLOR]
+------------------------
+
+- Cleaned up Kids Section
+- Sections Views for Movies and TV Shows
+- New Logo
+
+------------------------
+[COLOR green]SchisM TV v1.19.6 (28-Nov-15)[/COLOR]
+------------------------
+[COLOR red]IF YOU ARE ALREADY AT THIS VERSION DO NOT UPDATE[/COLOR]
+------------------------
+
+- Removed Mutts Nuts
+- Removed Superfav searches obsolete
+- Minor Fixes
