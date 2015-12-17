@@ -447,7 +447,7 @@ def INDEX():
 	addDir('[COLOR orange][B]Backup Settings[/B][/COLOR]','url',3,ART+'tool.png',FANART,'')
 	addDir('[COLOR orange][B]Restore Settings[/B][/COLOR]','url',4,ART+'tool.png',FANART,'')
 def UPDATEMENU():
-    linkupdate = OPEN_URL('https://archive.org/download/wizard_rel/update_wiz.txt').replace('\n','').replace('\r','')
+    linkupdate = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     matchupdate = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(linkupdate)
     
     if not matchupdate:
@@ -457,7 +457,7 @@ def UPDATEMENU():
     dialog = Gui("DialogTextViewer.xml", path, header=xbmc.getLocalizedString(24036), content=text)
     dialog.doModal()	
     addDir('[COLOR red][B]FIRST Clean Addons Here[/B][/COLOR]','url',2,ART+'update.png',FANART,'')
-    link = OPEN_URL('https://archive.org/download/wizard_rel/update_wiz.txt').replace('\n','').replace('\r','')
+    link = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
         addDir(name,url,90,iconimage,fanart,description)
@@ -465,14 +465,14 @@ def UPDATEMENU():
 	
 def BUILDMENU():
     
-    link = OPEN_URL('https://archive.org/download/wizard_rel/wizard_rel.txt').replace('\n','').replace('\r','')
+    link = OPEN_URL('https://archive.org/download/schismtv_private/wizard_rel.txt').replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
         addDir(name,url,90,iconimage,fanart,description)
     setView('movies', 'MAIN')
 
 def UPDATER():
-    linkupdate = OPEN_URL('https://archive.org/download/wizard_rel/update_wiz.txt').replace('\n','').replace('\r','')
+    linkupdate = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     matchupdate = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(linkupdate)
     
     if not matchupdate:
@@ -508,7 +508,7 @@ def UPDATER():
 	
        
 def UPDATEUSERDATA():
-    linkupdate = OPEN_URL('https://archive.org/download/wizard_rel/update_wiz.txt').replace('\n','').replace('\r','')
+    linkupdate = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     matchupdate = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(linkupdate)
     if not matchupdate:
 	dialog = xbmcgui.Dialog()
@@ -545,7 +545,7 @@ def UPDATEUSERDATA():
 	
 	
 def WIZARDCHECK():
-    linkupdate = OPEN_URL('https://archive.org/download/wizard_rel/update_wiz.txt').replace('\n','').replace('\r','')
+    linkupdate = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     matchupdate = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(linkupdate)
     if not matchupdate:
 		dialog = xbmcgui.Dialog()
@@ -555,7 +555,7 @@ def WIZARDCHECK():
     
 	
 def WIZARDUPDATE():
-    linkupdate = OPEN_URL('https://archive.org/download/wizard_rel/update_wiz.txt').replace('\n','').replace('\r','')
+    linkupdate = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     matchupdate = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(linkupdate)
     # if skin!= "skin.confluence":
 	# dialog = xbmcgui.Dialog()
