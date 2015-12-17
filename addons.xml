@@ -166,7 +166,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.schismwizard" name="[COLOR lime]SchisM TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="10.26.4" provider-name="SchisM TV">
+<addon id="plugin.video.schismwizard" name="[COLOR lime]SchisM TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="10.27.0" provider-name="SchisM TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
