@@ -460,7 +460,7 @@ def UPDATEMENU():
     link = OPEN_URL('https://archive.org/download/schismtv_private/update_wiz.txt').replace('\n','').replace('\r','')
     match = re.compile('name="(.+?)".+?rl="(.+?)".+?mg="(.+?)".+?anart="(.+?)".+?escription="(.+?)"').findall(link)
     for name,url,iconimage,fanart,description in match:
-        addDir(name,url,90,iconimage,fanart,description)
+        addDir(name,url,91,iconimage,fanart,description)
     setView('movies', 'MAIN')	
 	
 def BUILDMENU():
@@ -935,7 +935,29 @@ def WIZARD(name,url,description):
     
     killxbmc()
 
+def WIZARDFAST(name,url,description):
 
+    path = xbmc.translatePath(os.path.join('special://home/addons','packages'))
+    dp = xbmcgui.DialogProgress()
+    dp.create("[COLOR=lime][B]SchisM TV[/B][/COLOR][COLOR=white] Wizard[/COLOR]","Downloading ",'', 'Please Wait')
+    lib=os.path.join(path, name+'.zip')
+    try:
+       os.remove(lib)
+    except:
+       pass
+	
+    downloader.download(url, lib, dp)
+    addonfolder = xbmc.translatePath(os.path.join('special://','home'))
+    time.sleep(2)
+    dp.update(0,"", "Extracting Zip Please Wait")
+    print '======================================='
+    print addonfolder
+    print '======================================='
+    extract.all(lib,addonfolder,dp)
+    dialog = xbmcgui.Dialog()
+    dialog.ok("[COLOR=lime][B]SchisM TV[/B][/COLOR][COLOR=white] Wizard[/COLOR]", "To save changes you now need to force close Kodi, Press OK to force close Kodi")
+    
+    killxbmc()
 
 ################################
 ###DELETE PACKAGES##############
@@ -1446,5 +1468,6 @@ elif mode==83:
 elif mode==90:
         WIZARD(name,url,description)
 
-	
+elif mode==91:
+        WIZARDFAST(name,url,description)	
 xbmcplugin.endOfDirectory(int(sys.argv[1]))

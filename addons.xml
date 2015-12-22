@@ -21,6 +21,25 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Serie.com[/COLOR]" version="1.2.0" provider-name="Andrea">
+ <requires>
+	<import addon="script.module.simplejson" version="3.3.0"/>
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.common.plugin.cache" version="2.5.2"/>
+	<import addon="script.module.metahandler" version="2.5.1"/>
+ </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+	<summary lang="en"></summary>
+	<description lang="en">Thanks to Metalkettle and Lambda for the base of the addon</description>
+	<platform>all</platform>
+ </extension>
+</addon>
+
 <addon id="plugin.video.md123movies" name="123Movies" version="1.0.5" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -40,7 +59,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.moviehdmax" name="[COLOR yellow]Movies HD [/COLOR]Ultimate" version="1.0.0" provider-name="SchisM">
+<addon id="plugin.video.moviehdmax" name="[COLOR yellow]Movies HD [/COLOR]Ultimate" version="1.1.0" provider-name="SchisM">
  <requires>
 	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="xbmc.python" version="2.1.0"/>
@@ -84,7 +103,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.portalehd" name="Portale [COLOR yellow]HD[/COLOR].net" version="1.1.0" provider-name="Andrea">
+<addon id="plugin.video.portalehd" name="Portale [COLOR yellow]HD[/COLOR].net" version="1.2.0" provider-name="Andrea">
  <requires>
 	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="xbmc.python" version="2.1.0"/>
@@ -165,7 +184,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.schismwizard" name="[COLOR lime]SchisM TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="10.27.0" provider-name="SchisM TV">
+<addon id="plugin.video.schismwizard" name="[COLOR lime]SchisM TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="10.28.0" provider-name="SchisM TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -208,7 +227,6 @@
 	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-	<import addon="plugin.video.youtube" version="3.0.0"/>
 	<import addon="script.module.urlresolver"  version="2.1.2"/>
 	<import addon="script.common.plugin.cache" version="2.5.2"/>
 
