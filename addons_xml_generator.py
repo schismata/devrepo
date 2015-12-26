@@ -1,10 +1,8 @@
 """ addons.xml generator """
 
-import re
 import os
 import md5
-import zipfile
-import StringIO
+
 
 class Generator:
     """
@@ -27,28 +25,12 @@ class Generator:
         # loop thru and add each addons addon.xml file
         for addon in addons:
             try:
-                # skip any file or .git folder or .svn folder
-                if ( not os.path.isdir( addon ) or addon == ".git" or addon == ".svn" ): continue
-                # get zip files
-                _zip = os.listdir( addon )
-                _zip = [ i for i in _zip if i.startswith( addon ) and i.endswith( ".zip" ) ]
-                # get sort files
-                _zip = [ (int(re.search('\d+', i).group(0)), i) for i in _zip ]
-                _zip.sort()
-                _zip = [ i[1] for i in _zip ]
-                # select zip file
-                _zip = os.path.join( addon, _zip[-1] )
-                # read zip file
-                zip = zipfile.ZipFile( open( _zip, 'rb' ) )
-                # get xml file
-                xml_file = zip.namelist()
-                xml_file = [i for i in xml_file if i.endswith( "addon.xml" )][0]
-                # read xml file
-                xml_file = zip.read( xml_file )
-                # close zip file
-                zip.close()
+                # skip any file or .svn folder
+                if ( not os.path.isdir( addon ) or addon == ".svn" ): continue
+                # create path
+                _path = os.path.join( addon, "addon.xml" )
                 # split lines for stripping
-                xml_lines = xml_file.splitlines()
+                xml_lines = open( _path, "r" ).read().splitlines()
                 # new addon
                 addon_xml = ""
                 # loop thru cleaning each line
