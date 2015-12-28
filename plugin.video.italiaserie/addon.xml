@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Serie.com[/COLOR]" version="1.4.0" provider-name="Andrea">  
+<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Series[/COLOR]" version="1.7.0" provider-name="SchisM">  
  <requires>    
 	<import addon="script.module.simplejson" version="3.3.0"/>    
 	<import addon="xbmc.python" version="2.1.0"/>    

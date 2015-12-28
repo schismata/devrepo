@@ -21,7 +21,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.filmx" version="1.1.0" name="[COLOR lime]ITALIA[/COLOR] FILMS [COLOR red][B]HUB[/B][/COLOR]" provider-name="Mr Andrea">
+<addon id="plugin.video.filmx" version="1.2.0" name="[COLOR lime]ITALIA[/COLOR] FILMS [COLOR red][B]HUB[/B][/COLOR]" provider-name="Mr Andrea">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.TheYid.common" version="0.1.1"/>
@@ -42,7 +42,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Serie.com[/COLOR]" version="1.4.0" provider-name="Andrea">
+<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Series[/COLOR]" version="1.7.0" provider-name="SchisM">
  <requires>
 	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="xbmc.python" version="2.1.0"/>
