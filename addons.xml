@@ -42,7 +42,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Series[/COLOR]" version="1.8.0" provider-name="SchisM">
+<addon id="plugin.video.italiaserie" name="Italia[COLOR blue]Series[/COLOR]" version="1.9.0" provider-name="SchisM">
  <requires>
 	<import addon="script.module.simplejson" version="3.3.0"/>
 	<import addon="xbmc.python" version="2.1.0"/>
