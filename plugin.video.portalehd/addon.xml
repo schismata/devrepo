@@ -3,7 +3,7 @@
     <requires>
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>    
 		<import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.TheYid.common" version="0.1.1"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
         <import addon="script.module.urlresolver"  version="2.0.9"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
     </requires>
