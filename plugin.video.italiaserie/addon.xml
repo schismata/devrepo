@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.italiaserie" version="2.0.0" name="[COLOR lime]ITALIA[/COLOR] SER[COLOR red]IES[/COLOR]" provider-name="Mr Andrea">
+<addon id="plugin.video.italiaserie" version="2.1.0" name="[COLOR lime]ITALIA[/COLOR] SER[COLOR red]IES[/COLOR]" provider-name="Mr Andrea">
     <requires>
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>    
 		<import addon="xbmc.python" version="2.1.0"/>
