@@ -228,21 +228,28 @@ def SEARCHTV():
      except: pass
 		
 def PLAYMOVIE(name,url):
-        if "http" not in url:
+		if "http" not in url:
 		  url = "http:" + url
-        try:link = open_url(url)
-        except:link = cloudflare.request(url, mobile=True)	
-        match=re.compile('<a href="(.+?)" class="btn-wrapper link"').findall(link)
-        for url in match:
-	
+		try:link = open_url(url)
+		except:link = cloudflare.request(url, mobile=True)	
+		try:
 				stream_url = urlresolver.HostedMediaFile(url).resolve()
 				ok=True
 				liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage); liz.setInfo( type="Video", infoLabels={ "Title": name } )
 				ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
 				xbmc.Player ().play(stream_url,liz)
+		except:
+				match=re.compile('<a href="(.+?)" class="btn-wrapper link"').findall(link)
+				for url in match:
+		
+					stream_url = urlresolver.HostedMediaFile(url).resolve()
+					ok=True
+					liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage); liz.setInfo( type="Video", infoLabels={ "Title": name } )
+					ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
+					xbmc.Player ().play(stream_url,liz)
 			
  
-        addLink('Press back to exit','',1,icon,fanart)
+		addLink('Press back to exit','',1,icon,fanart)
         
 def cleanHex(text):
     def fixup(m):
