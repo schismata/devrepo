@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.casacinema" name="[COLOR blue]Casa[/COLOR]cinema" version="1.0.0" provider-name="SchisM">
+	<requires>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>
+		<import addon="plugin.video.youtube" version="3.0.0"/>
+		<import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.common.plugin.cache" version="2.5.2"/>
+		<import addon="script.module.metahandler" version="2.5.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en"></summary>
+			<description lang="en"></description>
+			<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.cb01" name="[COLOR red]CB[/COLOR]01" version="1.2.0" provider-name="SchisM">
 	<requires>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -101,7 +121,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.italiaserie" version="2.1.0" name="[COLOR lime]ITALIA[/COLOR] SER[COLOR red]IES[/COLOR]" provider-name="Mr Andrea">
+<addon id="plugin.video.italiaserie" version="3.0.0" name="[COLOR teal]Italia[/COLOR]serie" provider-name="Mr Andrea">
     <requires>
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -124,23 +144,24 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.0.5" provider-name="Mucky Duck">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="2.1.2"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
-	<import addon="repository.mdrepo" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream Movies From The 123movies.to WebSite</summary>
-    <description lang="en"></description>
-	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
-    <platform>all</platform>
-  </extension>
+<addon id="plugin.video.itastreaming" name="[COLOR blue]ITA[/COLOR] STREAMING (HD)" version="1.0.0" provider-name="SchisM">
+	<requires>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>
+		<import addon="plugin.video.youtube" version="3.0.0"/>
+		<import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.common.plugin.cache" version="2.5.2"/>
+		<import addon="script.module.metahandler" version="2.5.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+			<summary lang="en"></summary>
+			<description lang="en">SOLO HD MOVIES su itastreaming</description>
+			<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.moviehdmax" name="[COLOR yellow]Movies HD [/COLOR]Ultimate" version="1.1.0" provider-name="SchisM">
@@ -210,70 +231,9 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ProjectCypher"
-       name="ProjectCypher"
-       version="2.0.1"
-       provider-name="Cypher">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Live SD and HD TV channels</summary>
-    <description>General disclaimer: Project Cypher takes no responsibility for the content or reliability of the feeds. Project Cypher [B]Does Not[/B] host any of the feeds or Streams. Most of the Code from this addon was taken from many other addons but used under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.RobinHood-PPL-List"
-       name="RobinHood-Project"
-       version="3.0.7"
-       provider-name="Shadow Crew">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.t0mm0.common" version="2.0.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" version="3.0.0"/>
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="script.module.metahandler" version="2.5.1"/>
-
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en"> Join us at http://www.rh-project.info/</summary>
-    <description lang="en">Without our Donators this addon would not be possible. We Thank You All!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.schismtv"
 	name=" [COLOR blue]SchisM[/COLOR] TV"
-	version="1.0.0"
+	version="2.0.0"
 	provider-name="SchisM">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
