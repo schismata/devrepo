@@ -15,7 +15,7 @@ metaset = selfAddon.getSetting('enable_meta')
 base = 'http://www.italiaserie.com'
 def CATEGORIES():
 		addDir2('[COLOR yellow]Search >>>[/COLOR]','http://www.italiaserie.com/?s=',3,icon,'',fanart)
-		addDir2('[COLOR gold]ITALIASERIE.co[/COLOR]','http://www.italiaserie.co/genere/serie-tv//page/1/',6,icon,'',fanart)
+		addDir2('[COLOR gold]ITALIASERIE.co[/COLOR]','http://www.italiaserie.co/genere/serie-tv/page/1/',6,icon,'',fanart)
 		addDir2('[COLOR aqua]ITALIASERIE.com[/COLOR]','http://www.italiaserie.com/category/serie-tv/page/1/',6,icon,'',fanart)
 		addDir2('[COLOR blue]ITALIASERIE.news[/COLOR]','http://www.italiaserie.news/category/serie-tv/page/1/',6,icon,'',fanart)
 
