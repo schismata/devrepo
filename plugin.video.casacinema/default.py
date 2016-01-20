@@ -185,22 +185,29 @@ def PLAYMOVIE(name,url):
 		if "http" not in url:
 		  url = "http:" + url
 		try:link = open_url(url)
-		except:link = cloudflare.request(url, mobile=True)	
-		try:
-				stream_url = urlresolver.HostedMediaFile(url).resolve()
-				ok=True
-				liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage); liz.setInfo( type="Video", infoLabels={ "Title": name } )
-				ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
-				xbmc.Player ().play(stream_url,liz)
-		except:
-				match=re.compile('<a href="(.+?)" class="btn-wrapper link"').findall(link)
-				for url in match:
-		
+		except:link = cloudflare.request(url, mobile=True)
+		if "speedvideo" in url:
+			try:
+				from resources.lib import resolvers
+				url = resolvers.request(url)
+				xbmc.Player ().play(url)
+			except:pass
+		else:
+			try:
 					stream_url = urlresolver.HostedMediaFile(url).resolve()
 					ok=True
 					liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage); liz.setInfo( type="Video", infoLabels={ "Title": name } )
 					ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
 					xbmc.Player ().play(stream_url,liz)
+			except:
+					match=re.compile('<a href="(.+?)" class="btn-wrapper link"').findall(link)
+					for url in match:
+			
+						stream_url = urlresolver.HostedMediaFile(url).resolve()
+						ok=True
+						liz=xbmcgui.ListItem(name, iconImage="DefaultFolder.png", thumbnailImage=iconimage); liz.setInfo( type="Video", infoLabels={ "Title": name } )
+						ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=url,listitem=liz)
+						xbmc.Player ().play(stream_url,liz)
 			
  
 		addLink('Press back to exit','',1,icon,fanart)
