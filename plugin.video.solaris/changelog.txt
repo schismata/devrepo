@@ -1,4 +1,8 @@
-[COLOR green][B]1.5[/B]
+[COLOR orange][B]1.7[/B]
+- Added altadefhd and streamblog
+- Fix links...
+
+[COLOR red][B]1.5[/B]
 - Stable release
 
 [COLOR orange][B]1.4[/B]
