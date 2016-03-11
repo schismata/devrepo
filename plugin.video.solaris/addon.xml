@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.solaris" version="1.6" name="Solaris" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -7,7 +6,7 @@
 		<import addon="script.solaris.artwork" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="2.10.11"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>	
 		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -20,4 +19,3 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>

@@ -1,0 +1,16 @@
+[COLOR green][B]1.5[/B]
+- Stable release
+
+[COLOR orange][B]1.4[/B]
+- Added scrapers
+- Fix links...
+- 5 to go
+[/COLOR]
+[B]1.3[/B]
+- Added scrapers
+- Fix links
+[B]1.1[/B]
+- Added scrapers
+
+[B]1.0.0[/B]
+- Initial version
