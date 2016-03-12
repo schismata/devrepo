@@ -1,3 +1,10 @@
+[COLOR orange][B]1.8[/B]
+- HD Scraper links for 
+ Altedefinizione
+ HDgratis
+ Italiafilmvideo
+ Itastreaming
+
 [COLOR orange][B]1.7[/B]
 - Added altadefhd and streamblog
 - Fix links...
