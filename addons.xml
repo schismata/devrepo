@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.solaris" version="2.0" name="Solaris" provider-name="SchisM">
+<addon id="plugin.video.solaris" version="2.1" name="Solaris" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>

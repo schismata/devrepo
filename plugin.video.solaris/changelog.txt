@@ -1,3 +1,6 @@
+[COLOR white][B]2.0[/B] - 13-Mar-2015
+- Add Piratestream
+
 [COLOR lime][B]2.0[/B] - 12-Mar-2015
 - Stable release with all scrapers
 
