@@ -1,3 +1,5 @@
+[COLOR orange][B]2.3[/B] - 18-Mar-2015
+- More Fixes Altadefinizione,hdgratis,ifilmvideohd,itastreaming
 [COLOR white][B]2.2[/B] - 18-Mar-2015
 - Fix Altadefinizione,hdgratis,ifilmvideohd,itastreaming
 
