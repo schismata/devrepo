@@ -1,3 +1,6 @@
+[COLOR lime[B]3.0[/B] - 18-Mar-2015
+- Switched Sources to Imdb and align code with exodus
+
 [COLOR orange][B]2.4[/B] - 20-Mar-2015
 - Fix and cleanup HD Sources
 

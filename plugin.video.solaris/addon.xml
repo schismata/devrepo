@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.solaris" version="2.4" name="Solaris" provider-name="SchisM">
+<addon id="plugin.video.solaris" version="3.0" name="Solaris" provider-name="solaris">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.t0mm0.common" version="2.0.0"/>
 		<import addon="script.solaris.artwork" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="2.10.11"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>	
+
 		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Solaris</summary>
-		<description lang="en"></description>
-		<disclaimer lang="en">The author does not have any affiliation with the content provider</disclaimer>
+		<summary lang="en">solaris</summary>
+		<description lang="en">Italian Movies</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
