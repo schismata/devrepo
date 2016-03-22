@@ -1,3 +1,6 @@
+[COLOR white[B]3.1[/B] - 22-Mar-2015
+- Direct HD Links for Premium hosts
+[/COLOR]
 [COLOR lime][B]3.0[/B] - 18-Mar-2015
 - Switched Sources to Imdb and align code with exodus
 [/COLOR]
