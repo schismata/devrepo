@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.schismwizard" name="[COLOR lime]TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="100.1.0" provider-name="SchisM TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR lime]SchisM TV[/COLOR] Wizard</summary>
-    <description lang="en">Credits goes to Husham and TeamExpat for part of this wizard</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.solaris" version="3.2" name="Solaris" provider-name="Solaris">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
