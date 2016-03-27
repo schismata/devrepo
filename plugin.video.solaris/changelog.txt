@@ -1,3 +1,6 @@
+[COLOR white][B]3.3.2[/B] - 27-Mar-2015
+- Fix trailer in italiano
+[/COLOR]
 [COLOR white][B]3.3[/B] - 24-Mar-2015
 - Fix new matches for 1080 Premium hosts
 [/COLOR]

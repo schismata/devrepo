@@ -17,7 +17,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.solaris" version="3.3" name="Solaris" provider-name="Solaris">
+<addon id="plugin.video.solaris" version="3.3.2" name="Solaris" provider-name="Solaris">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.t0mm0.common" version="2.0.0"/>
