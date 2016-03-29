@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.schismwizard" name="[COLOR lime]TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="100.1.1" provider-name="Andrew TV">
+<addon id="plugin.video.schismwizard" name="[COLOR lime]TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="100.2" provider-name="Andrew TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -13,8 +13,7 @@
     <description lang="en"></description>
     <platform>all</platform>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
+
 </addon>
 
 <addon id="plugin.video.solaris" version="3.3.2" name="Solaris" provider-name="Solaris">
