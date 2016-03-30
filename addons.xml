@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.schismwizard" name="[COLOR lime]TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="100.2" provider-name="Andrew TV">
+<addon id="plugin.video.schismwizard" name="[COLOR lime]TV[/COLOR] [COLOR wizard] Wizard[/COLOR]" version="100.3" provider-name="Andrew TV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
