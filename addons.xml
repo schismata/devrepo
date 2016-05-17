@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.docuhub" name="[COLOR blue]Doc[/COLOR]Hub" version="1.0.0" provider-name="SchisM">
+<addon id="plugin.video.docuhub" name="[COLOR red]Doc[/COLOR]Hub" version="1.2.0" provider-name="SchisM">
 	<requires>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -16,7 +16,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 			<summary lang="en"></summary>
-			<description lang="en">Watch Docs</description>
+			<description lang="en"></description>
 			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
 
 			<platform>all</platform>
